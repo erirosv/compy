@@ -12,6 +12,10 @@ def tflops(flop, t): return flop / t * 1e-12
 def gflops(flop, t ): return flop / t * 1e-9   
 
 if __name__ == '__main__':
+   '''
+   Playing around with matrix multiplication with the size of N.
+   Then calculating the flop and flops for the matrix calculation. 
+   '''
    # define 2 matricies
    A = np.random.randn(N,N).astype(np.float32) # N^2
    B = np.random.randn(N,N).astype(np.float32) # N^2
