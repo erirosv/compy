@@ -1,2 +1,2 @@
 # compy
-Comparing different code libraries agains each other for fun
+Playing around and testing code, libraries etc...
